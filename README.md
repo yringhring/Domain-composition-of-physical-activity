@@ -70,6 +70,16 @@ Please make sure to install the required dependencies before running the program
 pip install -r requirements.txt
 ```
 
+## Contact
+
+For any questions or inquiries, please contact:
+
+Narumi Fujioka
+Associate Professor, Faculty of Law, Hosei University / Special Researcher, Sasakawa Sports Foundation
+
+Yuki Hayashi
+Lecturer, Department of Sociology, Otemon Gakuin University
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
