@@ -38,13 +38,13 @@ python ternary_mets_plot.py --country USA --filter --mets --average
 
 This project requires the following libraries:
 
-python-ternary==1.0.8
-numpy==1.24.3
-pandas==2.0.1
-matplotlib==3.7.1
-seaborn==0.12.2
-scipy==1.10.1
-argparse==1.1
+- python-ternary==1.0.8
+- numpy==1.24.3
+- pandas==2.0.1
+- matplotlib==3.7.1
+- seaborn==0.12.2
+- scipy==1.10.1
+- argparse==1.1
 
 Please make sure to install the required dependencies before running the program. You can do this by running:
 
