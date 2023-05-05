@@ -1,7 +1,7 @@
 
 # METsTernaryVisualization
 
-This program generates a ternary plot of METs (Metabolic Equivalent of Task) values for three activity categories: work, travel, and recreation. The input data must be in a `data_XXX.csv` format (where XXX is any 3-letter code) and should have the following structure:
+This program generates a ternary plot of METs (Metabolic Equivalent of Task) values for three activity categories: `work`, `travel`, and `recreation`. The input data must be in a `data_XXX.csv` format (where XXX is any 3-letter code) and should have the following structure:
 
 ## Input Data Format
 
@@ -16,7 +16,7 @@ The input data should be a CSV file with the following columns:
 
 ## Input Data Format Example
 
-Below is an example of the data format required for the input CSV file (data_USA.csv):
+Below is an example of the data format required for the input CSV file (`data_XXX.csv`):
 
 | ID    | PtotalMETs | percentage_work | percentage_travel | percentage_recreation | weight   |
 |-------|------------|-----------------|-------------------|-----------------------|----------|
