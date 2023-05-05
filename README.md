@@ -75,10 +75,11 @@ pip install -r requirements.txt
 For any questions or inquiries, please contact:
 
 Narumi Fujioka
-Associate Professor, Faculty of Law, Hosei University / Special Researcher, Sasakawa Sports Foundation
+- Associate Professor, Faculty of Law, Hosei University
+- Special Researcher, Sasakawa Sports Foundation
 
 Yuki Hayashi
-Lecturer, Department of Sociology, Otemon Gakuin University
+- Lecturer, Department of Sociology, Otemon Gakuin University
 
 ## License
 
