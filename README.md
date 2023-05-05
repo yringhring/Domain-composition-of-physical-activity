@@ -14,6 +14,16 @@ The input data should be a CSV file with the following columns:
 5. `percentage_recreation`: Percentage of METs related to recreation (in %)
 6. `weight`: Weight balance coefficient (0-1) for weighting each sample (optional)
 
+## Input Data Format Example
+
+Below is an example of the data format required for the input CSV file (data_USA.csv):
+
+| ID    | PtotalMETs | percentage_work | percentage_travel | percentage_recreation | weight   |
+|-------|------------|-----------------|-------------------|-----------------------|----------|
+| 1 | 480.00     | 0.00            | 0.00              | 100.00                | 3644.23  |
+| 2 | 1140.00    | 0.00            | 78.95             | 21.05                 | 5731.78  |
+| 3 | 600.00     | 0.00            | 0.00              | 100.00                | 9216.62 |
+
 ## Command Line Options
 
 The program accepts the following command line options:
