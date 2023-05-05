@@ -39,10 +39,18 @@ The program accepts the following command line options:
 2. Run the program with the appropriate command line options, e.g.:
 
 ```
-python ternary_mets_plot.py --country USA --filter --mets --average
+python ternary_mets_plot.py --country XXX --filter --mets --average
 ```
 
 3. The program will generate a ternary plot of the METs values for the specified country, with optional filtering, average METs circles, and the overall average value displayed.
+
+## Sample Output
+
+The generated ternary plot will look like the following example:
+
+![Sample Ternary Plot](sample.png)
+
+This sample image shows the distribution of METs for work, travel, and recreation activities on a ternary plot.
 
 ## Dependencies
 
