@@ -1,5 +1,5 @@
 
-# METsTernaryVisualization
+# Domain composition of physical activity
 
 This program generates a ternary plot of METs (Metabolic Equivalent of Task) values for three activity categories: `work`, `travel`, and `recreation`. The input data must be in a `data_XXX.csv` format (where XXX is any 3-letter code) and should have the following structure:
 
