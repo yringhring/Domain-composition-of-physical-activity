@@ -1,18 +1,18 @@
 
 # Domain composition of physical activity
 
-This program generates a ternary plot of METs (Metabolic Equivalent of Task) values for three activity categories: `work`, `travel`, and `recreation`. The input data must be in a `data_XXX.csv` format (where XXX is any 3-letter code) and should have the following structure:
+This program generates a ternary plot for distribution of relative contributions of domain specific activity (`work`, `travel`, and `recreation`) to total physical activity. The input data must be in a `data_XXX.csv` format (where XXX is any 3-letter code) and should have the following structure:
 
 ## Input Data Format
 
 The input data should be a CSV file with the following columns:
 
 1. `ID`: Respondent ID
-2. `PtotalMETs`: Total METs
-3. `percentage_work`: Percentage of METs related to work (in %)
-4. `percentage_travel`: Percentage of METs related to travel (in %)
-5. `percentage_recreation`: Percentage of METs related to recreation (in %)
-6. `weight`: Weight balance coefficient (0-1) for weighting each sample (optional)
+2. `PtotalMETs`: Total physical activity (METs min/week)
+3. `percentage_work`: Relative contribution of work (in %)
+4. `percentage_travel`: Relative contribution of travel (in %)
+5. `percentage_recreation`: Relative contribution of recreation (in %)
+6. `weight`: Sample weight for each sample (optional)
 
 ## Input Data Format Example
 
@@ -30,8 +30,8 @@ The program accepts the following command line options:
 
 - `--country` (Required): The 3-letter code used in the input file name (data_XXX.csv)
 - `--filter` (Optional): Apply a Gaussian filter to the data
-- `--mets` (Optional): Display the average METs of the data points in each histogram bin as circles
-- `--average` (Optional): Display the overall average value on the ternary plot
+- `--mets` (Optional): Display the average of total physical activity in each histogram bin as circles
+- `--average` (Optional): Display the overall average of relative contributions on the ternary plot
 
 ## Usage
 
