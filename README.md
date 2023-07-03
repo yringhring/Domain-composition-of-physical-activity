@@ -42,7 +42,7 @@ The program accepts the following command line options:
 python ternary_mets_plot.py --country XXX --filter --mets --average
 ```
 
-3. The program will generate a ternary plot of the METs values for the specified country, with optional filtering, average METs circles, and the overall average value displayed.
+3. The program will generate a distribution of relative contributions of domain specific activity to total physical activity for the specified country, with optional filtering, average of physical activity as circles, and the overall average relative contributions displayed.
 
 ## Sample Output
 
@@ -50,7 +50,7 @@ The generated ternary plot will look like the following example:
 
 ![Sample Ternary Plot](sample.png)
 
-This sample image shows the distribution of METs for work, travel, and recreation activities on a ternary plot.
+This sample image shows the distribution of relative contributions of each domain (i.e., work, travel, and recreation) on a ternary plot.
 
 ## Dependencies
 
